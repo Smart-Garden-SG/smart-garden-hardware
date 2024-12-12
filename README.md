@@ -8,9 +8,15 @@ Este projeto integra sensores de solo e uma rede MQTT para monitoramento em temp
 ## 📦 Funcionalidades
 
 - **📡 Leitura de Sensores via Modbus**:
-  - Umidade do solo (%RH)
-  - Temperatura do solo (°C)
-  - Condutividade elétrica
+    - **Nitrogênio (mg/kg)**  
+     - **Fósforo (mg/kg)**  
+     - **Potássio (mg/kg)**  
+     - **pH**  
+     - **Condutividade elétrica**  
+     - **Temperatura do solo (°C)**  
+     - **Umidade (%RH)**  
+     - **Salinidade (mg/L)**  
+     - **Sólidos Totais Dissolvidos (TDS) (mg/L)**  
 
 - **📤 Envio de Dados via MQTT**:
   - Transmite os dados lidos para um broker MQTT.
